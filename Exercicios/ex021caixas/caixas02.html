@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to left, gray, rgb(31, 30, 30));
+            margin: 0;
+        }
+
+        header{
+            background-color: rgb(255, 255, 255);
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.664);
+            margin: 10px;
+            padding: 10px;
+            
+        }
+
+
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.623);
+        }
+
+        nav > a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: black;
+            margin-right: 30px;
+            padding: 5px;
+        }
+
+        nav > a:hover{
+            color: rgb(82, 82, 204);
+            text-decoration: underline;
+        }
+
+        article > h2{
+            text-decoration: underline; 
+            text-shadow: rgb(88, 88, 87) 5px 5px 5px;  
+        }
+
+        
+        main{
+            background-color: rgb(105, 102, 102);
+            color: white;
+            margin: 10px 10px;
+            padding: 5px;
+            border-radius: 20px 0px;
+            box-shadow: 7px 12px 20px black;
+        }
+
+
+        aside{
+            text-decoration: underline;
+            font-style: italic;
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque provident eius ducimus soluta quo? Similique praesentium quae fuga molestiae cum, exercitationem amet a tenetur nihil id culpa aspernatur quis dicta!</p>
+                <aside>
+                    <p>Artigo escrito por Gustavo Oliveira</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gustavo Scarpini</p>
+    </footer>        
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh e %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight:900;
+            /*Weight(pesos) possiveis: lighter, normal, bold e bolder (aceitos para algumas fontes). Também tem a variação numerica que vai de 100 a 900*/
+            /*weight=peso, width=largura e height=altura */
+            font-style:italic;
+            /*Italico(italic ou oblique) e negrito(bold ou bolder)*/
+            text-decoration:underline;
+            /*Sublinhado*/
+        }
+        h1{
+            /*font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            /*Shorthand font = condensar todas as informaçoes sobre a font que vai utilizar, porem existe uma ordem certa = style - weight - size - family*/
+            font: italic bolder 3em 'courier New', courier, monospace;
+        }
+
+        h2{
+            font: bold 2em 'courier new';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquam quae placeat rerum optio quo atque fugit nam ipsa debitis expedita quia voluptas voluptatem sed laudantium incidunt eum, odio distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nesciunt ullam et quos. Officiis cupiditate perspiciatis ratione cum voluptates porro ipsum eveniet, delectus doloribus suscipit reprehenderit facilis magnam doloremque repudiandae.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem in facere expedita dolor obcaecati vel repudiandae natus cupiditate harum quis eos hic, voluptatibus sit exercitationem laboriosam et aperiam. Tenetur, unde!</p>
+    <h2>Subtituilo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis rerum dolorem, nemo a est provident, impedit aut aliquid iure optio voluptatem, at magnam. Asperiores aliquid odio nostrum praesentium enim architecto.</p>
+</body>
+</html>
